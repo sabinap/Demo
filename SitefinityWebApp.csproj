@@ -528,9 +528,12 @@
   <ItemGroup>
     <Compile Include="AzureWebRole.cs" />
     <Compile Include="Mvc\Controllers\MVCWidgetWithDesignerController.cs" />
+    <Compile Include="Mvc\Controllers\MyWidget1Controller.cs" />
     <Compile Include="Mvc\Models\MVCWidgetWithDesignerModel.cs" />
+    <Compile Include="Mvc\Models\MyWidget1Model.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WidgetDesigners\MVCWidgetWithDesigner\MVCWidgetWithDesignerDesigner.cs" />
+    <Compile Include="WidgetDesigners\MyWidget1\MyWidget1Designer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ClientBin\Telerik.Sitefinity.Analytics.xap" />
@@ -651,6 +654,8 @@
     </Content>
     <Content Include="WidgetDesigners\MVCWidgetWithDesigner\MVCWidgetWithDesignerDesigner.ascx" />
     <Content Include="WidgetDesigners\MVCWidgetWithDesigner\MVCWidgetWithDesignerDesigner.js" />
+    <Content Include="WidgetDesigners\MyWidget1\MyWidget1Designer.ascx" />
+    <Content Include="WidgetDesigners\MyWidget1\MyWidget1Designer.js" />
     <Content Include="wlwmanifest.xml" />
     <Content Include="Mvc\Controllers\readme.txt" />
     <Content Include="Mvc\Models\readme.txt" />
@@ -668,6 +673,7 @@
   <ItemGroup>
     <None Include="App_Data\GeoLocation\GeoLiteCity.dat" />
     <Content Include="Mvc\Views\MVCWidgetWithDesigner\Default.cshtml" />
+    <Content Include="Mvc\Views\MyWidget1\Default.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
